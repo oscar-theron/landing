@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    background: url('images/background.football.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 800px;
+    width: 90%;
+}
+
+header {
+    margin-bottom: 20px; /* Augmente l'espace sous le header */
+    padding: 15px 0; /* Augmente l'espace intérieur du header */
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #ffcc00;
+    margin-bottom: 10px; /* Ajuste si nécessaire */
+}
+
+header p {
+    font-size: 1.2em;
+    color: #ffcc00;
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.recruitment-info {
+    margin-top: 30px; /* Ajoute de l'espace au-dessus de la section des critères */
+}
+
+p, ul {
+    font-size: 1.1em;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.application-form {
+    margin-top: 20px;
+}
